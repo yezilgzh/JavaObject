@@ -45,6 +45,7 @@ public class ObjectLayout {
 		System.out.println("s:" + s_offset);
 		long t_offset = unsafe.objectFieldOffset(ObjectLayout.class.getDeclaredField("t"));
 		System.out.println("t:" + t_offset);
+		
 	}
 
 }
